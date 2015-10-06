@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark-class</string>
+	<string>snippet-assertmainthread</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Section Name#&gt;</string>
+	<string>assert(NSThread.isMainThread() == true, "\(self.dynamicType): \(__FUNCTION__) must be called on main thread!")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B7A52840-30EE-4D14-A53A-770F98E3D7C6</string>
+	<string>22682132-F501-4CE9-9395-6CF12AE9361F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Mark</string>
+	<string>Assertion for main thread.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Mark</string>
+	<string>Swift Main Thread Assertion</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
