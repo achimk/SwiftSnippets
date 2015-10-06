@@ -9,7 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let sharedInstance: &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
+	<string>static let sharedInstance: &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()
+private init() {}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C7A11C63-57DF-46DF-ABA6-3D255C017B28</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +22,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
