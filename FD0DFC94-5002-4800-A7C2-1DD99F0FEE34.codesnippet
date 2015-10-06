@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippet-uicollectionviewdatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -&gt; UICollectionReusableView {
+        let view = collectionView.dequeueReusableSupplementaryViewOfKind(UICollectionElementKindSectionHeader, withReuseIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath) as! UICollectionReusableView
+        return view
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath) as! UICollectionViewCell
+        return cell
+    }
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
+        return &lt;#numberOfSections#&gt;
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+        return &lt;#numberOfItems#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FD0DFC94-5002-4800-A7C2-1DD99F0FEE34</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Data source protocol implementation.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UICollectionViewDataSource protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

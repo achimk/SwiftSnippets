@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippet-uitableviewdelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
+        return &lt;#height#&gt;
+    }
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
+        return &lt;#height#&gt;
+    }
+    
+    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -&gt; CGFloat {
+        return &lt;#height#&gt;
+    }
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+        
+    }
+    
+    func tableView(tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
+        
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>345D8387-4024-4FB3-BB9E-BBDB00D06FA6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate protocol implementation</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UITableViewDelegate protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

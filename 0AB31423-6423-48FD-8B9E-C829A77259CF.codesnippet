@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippet-uicollectionviewdelegateflowlayout</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -&gt; CGSize {
+        return CGSize(width: &lt;#width#&gt;, height: &lt;#height#&gt;)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -&gt; CGSize {
+        return CGSize(width: &lt;#width#&gt;, height: &lt;#height#&gt;)
+    }
+
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -&gt; CGSize {
+        return CGSize(width: &lt;#width#&gt;, height: &lt;#height#&gt;)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -&gt; UIEdgeInsets {
+        return UIEdgeInsets(top: &lt;#top#&gt;, left: &lt;#left#&gt;, bottom: &lt;#bottom#&gt;, right: &lt;#right#&gt;)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
+        return &lt;#line spacing#&gt;
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
+        return &lt;#interitem spacing#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0AB31423-6423-48FD-8B9E-C829A77259CF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Flow layout delegate protocol implementation.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UICollectionViewDelegateFlowLayout protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

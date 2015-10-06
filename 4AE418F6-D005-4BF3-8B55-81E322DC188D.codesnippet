@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippet-uitableviewdatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath) as! UITableViewCell
+        return cell
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+        return &lt;#numberOfSections#&gt;
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#numberOfRows#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4AE418F6-D005-4BF3-8B55-81E322DC188D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Data source protocol implementation.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UITableViewDataSource protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
